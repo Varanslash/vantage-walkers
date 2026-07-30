@@ -1,0 +1,12 @@
+Name		Grade	Moons	Type	ATK	HP	Card Type	Skill/Effect
+Unholy Matrimony		A	6	Multi-Turn	N/A	N/A	Assist	Select any two monsters on the field. If either monster is destroyed, destroy the other monster. This card stays on the field until its effect is fulfilled.
+Oriya, Old God of Envy		SS	6	Water / Deity	5000	6000	Monster	Once per turn, you can summon a monster. 
+Collapse		S	6	Trap	N/A	N/A	Trap	You and your opponent choose any 6 of your own zones. Destroy any card in any of those zones, and lock those zones for five turns.
+Summoning Circle		S	6	Instant	N/A	N/A	Assist	Summon 1 monster from the Deck or hand.
+Void's Chosen		SS	4	Deity	0	100	Sacrifice	If this card attacks successfully, your opponent banishes their hand. This card must remove itself from play if it is still on the field by the End Phase.
+San-roku		S	6	Magic 	1500	1800	Monster	Add 6 Moons.
+Me-nana		S 	7	Magic 	1800	2100	Monster	Add 7 Moons.
+Sui-hachi		S 	8	Magic 	2100	2400	Monster	Add 8 Moons.
+Dai-kuu		S 	9	Magic 	2400	2700	Monster	Add 9 Moons.
+Mei-Juu		SS	10	Magic 	2700	3000	Monster	Add 10 Moons.
+Amazoness Fairy		X	0	Deity	3500	7900	Fusion	(FM: ("Hell's Knight", "Hell's Queen") or ("Heaven's Knight", "Heaven's Queen") or ("Earthly Knight", "Earthly Princess")) If any monster on this card's row, column, or 2 zone vincinity is destroyed by battle, this card can sacrifice itself to destroy the attacker. If it is sent to the grave by this effect, you may revive it next turn. You can pay 2 moons; this card can deal overshoot damage equal to this card's ATK - the defending monster's ATK rather than dealing damage to the defending monster.
