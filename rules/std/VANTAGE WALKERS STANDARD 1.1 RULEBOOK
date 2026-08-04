@@ -83,6 +83,27 @@ Monsters are split into 4 categories:
 "" - This indicates a card's name or part of a card's name. An example would be "Vantage Walker" or 1 "Gandora" Monster.
 X/X - This indicates a monster's statline, with the first number being the monster's attack value and the second number being the monster's health value. An example would be 1500/2000. This is commonly used in card effects to reference specific statlines or overwrite them.
 
+Card effect triggers are phrases that indicate when a card's effect can be activated. These triggers are used to specify when a card's effect can be activated, and are used in conjunction with the card's effect text. The following are the card effect triggers that are used in Vantage Walkers:
+
+When this card is summoned - when the card is summoned
+When this card leaves the field - if the card leaves the field
+When this card is destroyed - if the card is destroyed specifically
+When this card is banished - if the card is banished specifically
+When this card is removed from play - if the card is removed from play specifically
+Once per turn, you can - optional opt
+Once per turn, - mandatory opt
+Once every other turn, you can - optional oeot
+Once every other turn, - mandatory oeot
+Once every \[x\] turns, you can - optional oext
+Once every \[x\] turns, - mandatory oext
+If \[condition\] - specific condition met
+You may pay \[x\] moons - paying
+You can \[action\] - optional mpt
+\[effect\] - no condition
+
+"When" and "If" are interchangeable - for example, "When this card is destroyed" and "If this card is destroyed" are the same trigger.
+"Can" and "May" are interchangeable - for example, "You can pay 2 moons" and "You may pay 2 moons" are the same trigger.
+
 ### Board
 
 The board is a 6x4 grid of 24 zones. Each player has 12 zones \[6x2\]. An empty zone is a vacant one. A filled zone is a zone that has a card in it. A locked zone is a zone that cannot be interacted with, and if it contains a card, that card cannot use effects or attack. A locked zone can be unlocked or created by a card effect. Each zone is numbered from 1 to 12, with the top left being 1 and the bottom right being 12. The zones are numbered as follows:
