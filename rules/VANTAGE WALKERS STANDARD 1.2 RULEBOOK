@@ -154,3 +154,11 @@ Royal Format is a format of Vantage Walkers that is played with an expanded set 
 
 Changes to the standard rules for Royal Format are as follows:
 - Each player starts with 15000 life points and 10 moons.
+
+## Nightly Format
+
+Nightly Format is an experimental format focused on changing rules and interactions and testing them for game balance.
+
+Changes to the standard rules for Nightly Format are as follows:
+- Each player starts with 15000 life points and 0 moons.
+- Monsters directly behind other monsters cannot be attacked.
