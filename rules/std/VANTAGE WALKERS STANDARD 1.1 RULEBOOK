@@ -73,9 +73,9 @@ Arenas - Arena, Cantrip, Trap
 
 Monsters are split into 4 categories:
 - Normal - These monsters are summoned via Moons.
-- Sacrifice - These monsters are summoned via sacrificing other monsters on the field, the amount of which is specified on the Moon cost of the monster. These monsters have a wire value of 3.
+- Sacrifice - These monsters are summoned via sacrificing other monsters on the field, the amount of which is specified on the Moon cost of the monster. 
 - Ritual - These monsters are summoned via a ritual Assist, which is a card that is played from the hand and has an immediate effect. The ritual card specifies the monster that can be summoned via that ritual. These monsters have a Wire value of 5.
-- Fusion - These monsters are summoned via sacrificing specific cards on the field, specified on the effect of the Fusion monster. This includes Assists, Cantrips, etc. These monsters have a Wire value of 4.
+- Fusion - These monsters are summoned via sacrificing specific cards on the field, specified on the effect of the Fusion monster. This includes Assists, Cantrips, etc. 
 
 ### Card Syntax
 
