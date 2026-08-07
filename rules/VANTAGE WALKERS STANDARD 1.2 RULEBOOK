@@ -6,7 +6,7 @@ Vantage Walkers is a card game that is played with two decks comprised of 60 VW 
 
 - Each player starts with 15000 life points and 5 moons.
 - Players draw 5 cards from their deck at the beginning of the game. The player going first does not have a Draw Phase.
-- If a player has no LP or cards in their deck, they lose the game.
+- If a player has no LP or cards in their deck when they have to draw, they lose the game.
 - Players can play cards from their hand by paying a "Moon" or mana cost.
 - Players can have up to 12 cards on the field at a time, in 12 different zones. Each zone can hold one card.
 - Each monster card has an attack and health value. When a monster attacks another monster, the attacking monster's attack value is compared to the defending monster's health value. If the attack value is greater than the health value, the defending monster is destroyed and sent to the graveyard. If the attack value is less than the health value, both monsters remain on the field.
@@ -110,6 +110,8 @@ You can \[action\] - optional mpt
 
 "Once every X turns" means once you use the effect, you cannot use it for x-1 turns after the turn it was used (ex: if you use an OE5T effect, then once your turn ends, you cannot use it until the beginning of the fifth turn after it was activated, so four turns in between)
 
+"X turns" means X-1 turns after the turn of activation. In other words, X turns includes the current turn.
+
 ### Board
 
 The board is a 6x4 grid of 24 zones. Each player has 12 zones \[6x2\]. An empty zone is a vacant one. A filled zone is a zone that has a card in it. A locked zone is a zone that cannot be interacted with, and if it contains a card, that card cannot use effects or attack. A locked zone can be unlocked or created by a card effect. Each zone is numbered from 1 to 12, with the top left being 1 and the bottom right being 12. The zones are numbered as follows:
@@ -143,6 +145,14 @@ If a player has a negative tab, that player's tab becomes 0 and they gain moons 
 Variables in Vantage Walkers are used to store values that can be used in card effects. Variables are stored in a player's variable pool, which is a collection of variables that can be used by that player. Each player has their own variable pool, and variables cannot be shared between players. Variables are created by card effects, and can be destroyed by card effects. Variables can be used in card effects by referencing them by name. Variables can be used to store values such as life points, moons, or any other value that can be represented by a number.
 
 Monsters also contain their own selfcontained variable, called a queue, which is a variable that can be used to store integers or strings for the purposes of card effects. The queue can be a stack or a single value, depending on the effect of the card. The queue can be used to store values such as attack and health values, effects, or any other value that can be represented by a number or string.
+
+If a variable reaches 0, it is removed from the pool unless stated otherwise.
+
+### Chains
+
+A chain is a series of cards that responded to each other. It is a LIFO system, meaning the last card played is the first card to resolve.
+
+When you play a card, your opponent gets the chance to respond. If they do not, or if you have a card that bypasses priority, you may respond to your own card instead.
 
 ### Misc.
 
