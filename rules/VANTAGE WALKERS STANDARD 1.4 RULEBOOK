@@ -132,7 +132,7 @@ End of Turn - The turn ends and the next player begins their turn. Any effects t
 
 ### Economy
 
-Each player starts with 5 moons, and can choose to either gain 2 moons or 1d3 moons at the start of their turn. There is no limit to how many moons a player can have. Moons are used to pay for cards and card effects. Each card has a moon cost, which is the amount of moons that must be paid to play that card. Some cards have effects that can be activated by paying moons, which is specified in the effect of the card.
+Each player starts with 0 moons, and can choose to either gain 2 moons or 1d3 moons at the start of their turn. There is no limit to how many moons a player can have. Moons are used to pay for cards and card effects. Each card has a moon cost, which is the amount of moons that must be paid to play that card. Some cards have effects that can be activated by paying moons, which is specified in the effect of the card.
 
 Monster moon costs must be paid upfront.
 
