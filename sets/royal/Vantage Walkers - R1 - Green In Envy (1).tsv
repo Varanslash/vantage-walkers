@@ -1,0 +1,93 @@
+Name		Grade	Moons	Type	ATK	HP	Card Type	Skill/Effect													
+Oriya, Old God of Envy		Grade-SS	6	Water / Deity	5000	6000	Monster	Once per turn, you can summon a monster. 													
+Cursed Teddy Bear		Grade-D	0	Magic/Dark	800	1400	Monster	Destroy this card to destroy another card.													
+Supersonic Speed!		Grade-C	N/A	Instant	N/A	N/A	Assist	If a monster is attacked, then the damage is 0.													
+Brainwash		Grade-B	N/A	One-Turn	N/A	N/A	Assist	Take control of 1 monster.													
+Desserts		Grade-C	N/A	Instant	N/A	N/A	Assist	Gain 2 Moons.													
+Carbon Wall		Grade-S	N/A	Multi-Turn	N/A	N/A	Assist	Stun your opponent's monsters for 2 turns.													
+Assailant		Grade-D	0	None	500	1000	Monster	Destroy a card in your opponent's hand.													
+White Knight Yang		Grade-A	4	Light	2500	3000	Monster	If "Black Knight Yin" is on the field, this card cannot be attacked.													
+Black Knight Yin		Grade-A	4	Dark	3000	2500	Monster	If "White Knight Yang" is on the field, this card cannot be attacked.													
+Junkyard Dragon		Grade-B	2	Metal / Magic	2000	2300	Monster	This card can be summoned from the Grave for 1 Moon.													
+Winds of Everest		Grade-C	N/A	Multi-Turn	N/A	N/A	Assist	No monsters can be summoned for 2 turns.													
+Destructive Power		Grade-B	N/A	One-Turn	N/A	N/A	Assist	Select 1 monster. It gains 1500 ATK and HP. When this card expires, the selected monster is destroyed.													
+Ice Cap Turtle		Grade-F	0	Water	100	800	Monster	Not affected by Skills.													
+Great Divide		Grade-C	N/A	One-Turn	N/A	N/A	Assist	All monster's ATK and HP are halved.													
+Turret Dragon		Grade-B	2	Dragon / Tech	1000	2000	Monster	Once per game, this card can destroy one of your monsters to destroy 2 of your opponent's monsters.													
+Rewind		Grade-A	N/A	Instant	N/A	N/A	Assist	Destroy any cards played this turn.													
+Fast-Forward		Grade-S	N/A	Instant	N/A	N/A	Assist	Skip your opponent's turn.													
+Blizzard		Grade-C	N/A	Multi-Turn	N/A	N/A	Assist	For 2 turns, all monsters are Water types.													
+Prayer of Life		Grade-S	N/A	Instant	N/A	N/A	Assist	Summon a monster from the Grave.													
+Sandstone Golem		Grade-A	3	Earth	2500	3200	Monster	Once per turn, if you destroy an Earth monster, then this card gains 1000 ATK until the end of the turn.													
+Rainforest		Grade-B	N/A	Multi-Turn	N/A	N/A	Assist	For 2 turns, all Water-type monsters gain 500 ATK and HP.													
+Degrade		Grade-S	N/A	Multi-Turn	N/A	N/A	Assist	For 3 turns, all of your opponents Grade-A or higher monsters on the field are destroyed.													
+Carbon Golem		Grade-A	4	Earth	3000	2900	Monster	Damage taken by this monster is halved.													
+Perfect Golem		Grade-S	5	Deity	4000	4500	Monster	All "Golem" monsters on the field gain 1000 ATK and HP.													
+Golem Egg		Grade-D	0	Earth	0	100	Monster	You can destroy this card to summon 1 "Golem" monster.													
+Earthbound Summoning		Grade-C	N/A	Instant	N/A	N/A	Assist	Summon 2 Earth-type monsters.													
+Strike From Above		Grade-S	N/A	Instant	N/A	N/A	Assist	Destroy all monsters. For each monster destroyed, your opponent loses 1 Moon.													
+Horoscope		Grade-C	N/A	Instant	N/A	N/A	Assist	Look at the top 3 cards of your Deck and put them back in the same order.													
+Spicy Tacos!		Grade-B	N/A	One-Turn	N/A	N/A	Assist	Select 1 monster. It loses 500 HP. Next turn, it gains 1000 HP.													
+Blue Wing		Grade-A	N/A	Instant	N/A	N/A	Assist	Destroy all Earth-type monsters.													
+Black Abyss		Grade-B	N/A	Instant	N/A	N/A	Assist	Destroy 1 Light Monster.													
+Type Barrier		Grade-A	N/A	Multi-Turn	N/A	N/A	Assist	Choose 1 Type. That type cannot attack you for 3 turns.													
+This Isn't Even My Final Form!		Grade-A	N/A	Multi-Turn	N/A	N/A	Assist	Select 1 monster. Its grade is SS and it gains 1500 ATK and HP for 2 turns.													
+Skill Switch		Grade-S	N/A	One-Turn	N/A	N/A	Assist	Choose 1 monster and 1 Assist card. The monster gains the Effect of the Assist card.													
+Probihition		Grade-A	N/A	Multi-Turn	N/A	N/A	Assist	Your opponent cannot play Assist cards for 2 turns.													
+Heavy Metal!		Grade-C 	N/A	One-Turn	N/A	N/A	Assist	Select 1 monster under 3 moons. It cannot be attacked.													
+Grade Check		Grade-B	N/A	Multi-Turn	N/A	N/A	Assist	For 3 turns, all monsters Grade-B or lower that your opponent controls are destroyed.													
+Hell's Priest		Grade-S	4	Demon	4000	4000	Monster	When Destroyed, you can summon a Demon-type monster.													
+Tech Power		Grade-S	N/A	One-Turn	N/A	N/A	Assist	All non-Tech monsters take double damage when attacked by a Tech-type monster.													
+The Six Eyes		Grade-S	N/A	Multi-Turn	N/A	N/A	Assist	You can see all Assist cards in your opponet's deck.													
+Confusion		Grade-A	N/A	Multi-Turn	N/A	N/A	Assist	Select 1 monster. When it attacks, the controller has to toss a coin and call it. If called wrong, the monster loses HP equal to its ATK.													
+The Dowen		Grade-D	1	Dark	1000	2000	Monster	When destroyed, you can summon a "The Man in the Shadows".													
+Heaven and Hell		Grade-B	N/A	Instant	N/A	N/A	Assist	Select 1 monster. Toss a coin and call it. If wrong, the monster loses 2000 ATK and HP, and vice versa.													
+Your Last Leg		Grade-S	N/A	Multi-Turn	N/A	N/A	Assist	When activated, the first to reach the last card of their deck must flip a coin. Winner is automatically winner of the Match.													
+Time Limit		Grade-S	N/A	Multi-Turn	N/A	N/A	Assist	This card stays on the field for 3 turns. When it expires, the person with more Moons wins the Match.													
+Magic Tea		Grade-F	N/A	Instant	N/A	N/A	Assist	Select 1 monster. It gains 500 HP.													
+Meteor Shower		Grade-A	N/A	Multi-Turn	N/A	N/A	Assist	This card stays on the field for 3 turns. When it expires, all monsters are destroyed.													
+The Man in the Shadows		Grade-B	2	Dark	3000	2500	Monster	Immune to Dark-type monsters.													
+Final Showdown		Grade-B	N/A	Multi-Turn	N/A	N/A	Assist	Both players select 1 monster under 4 Moons. Only they can attack until one is destroyed.													
+Thalasso		Grade-B	2	Water	2100	3200	Monster	Any Fire-type monster the attacks this card is destroyed.													
+Tsuchiro		Grade-A	3	Earth	3400	4000	Monster	Any Water-type monster the attacks this card is destroyed.													
+Huisuo		Grade-A	4	Air	3000	2500	Monster	All Earth-type Monsters and Assist cards effects are negated for 3 turns.													
+Herald of Distrust		Grade-A	3	Dark	3500	3000	Monster	Discard two cards from your opponent's hand.													
+Herald of Truth		Grade-A	3	Light	3500	2500	Monster	You may look at your opponent's hand.													
+Herald of Power		Grade-A	3	Deity	3500	3500	Monster	This card gains ATK equal to HP it loses.													
+Keithkaio		Grade-SS	6	Deity	10000	1000	Monster	Immune to any non-Deity monsters.													
+Muiruoko		Grade-SS	6	Deity	1000	10000	Monster	Immune to any non-Deity monsters.													
+Kazame-ichi		Grade-A	1	Magic	200	300	Monster 	Add 1 Moon.													
+Saono-ni		Grade-A	2	Magic	400	600	Monster 	Add 2 Moons.													
+Rekken-san		Grade-A	3	Magic 	600	900	Monster	Add 3 Moons.													
+Karru-shi		Grade-A 	4	Magic 	800	1200	Monster	Add 4 Moons.													
+Ren-go		Grade-A 	5	Magic 	1200	1500	Monster	Add 5 Moons.													
+San-roku		Grade-S	6	Magic 	1500	1800	Monster	Add 6 Moons.													
+Me-nana		Grade-S 	7	Magic 	1800	2100	Monster	Add 7 Moons.													
+Sui-hachi		Grade-S 	8	Magic 	2100	2400	Monster	Add 8 Moons.													
+Dai-kuu		Grade-S 	9	Magic 	2400	2700	Monster	Add 9 Moons.													
+Mei-Juu		Grade-SS	10	Magic 	2700	3000	Monster	Add 10 Moons.													
+Daiku-Ao		Grade-B	5	Dark	3200	4000	Monster	Destroy all non-Dark monsters. Then, gain 5 Moons.													
+Daiku-Midori		Grade-B	5	Earth	2000	8000	Monster	No effect.													
+Kazitashi		Grade-B	5	Light	3000	3000	Monster	Unaffected by Assist cards.													
+Robot Tree		Grade-D	2	Earth 	3000	1500	Monster	Takes half damage.													
+Genocide		Grade-A	N/A	Instant	N/A	N/A	Assist 	Destroy all monsters.													
+Atrocity		Grade-A 	N/A	Instant	N/A	N/A	Assist 	The monster with the highest ATK on your side gains 100,000 ATK.													
+Holocaust		Grade-A 	N/A	Instant 	N/A	N/A	Assist 	Destroy all monsters on your opponent's side as well as their hand.													
+Dictatorship 		Grade-A 	N/A	Multi-Turn 	N/A	N/A	Assist	Your opponent's monsters have 100 ATK for 2 turns. Then, discard this card.													
+Kamikaze		Grade-A	N/A	Instant	N/A	N/A	Assist	Destroy all of your monster on the field grade C and above, but you receive the @nd 				recive the 2nd Extinction Event card									
+The King of Gold, Midas		Grade-SS 	10	Magic	2800	3900	Monster	Choose one monster to turn into gold (Must have the Golden touch Card in hand to use) Chosen monster is destroyed and cannot be used for the rest of the match.													
+Posideion, God of the Seas		Grade-S	9	Water/Deity	3000	5000	Monster	All Water type cards on the field are destroyed, and replaced by Odia, God of Envy.													
+The Chosen of The Void Sparks		Grade-A	6	Magic	4000	2000	Monster	You are able to black flash any monster on the field, but only 5 times. The 5th Black Flash destroys the tatget, regardless of health.													
+The Golden Touch		Grade-C	N/A	Instant/One turn	N/A	N/A	Assist	This card allows The King of Gold, Midas, to activate its effect. This card must be in hand for Midas to activate it.													
+Cosmic Power Struggle		Grade- X	N/A	Muti-Turn	N/A	N/A	Assist	If 2 Grade-X Monsters on opposing sides, they will be the only one who can attack, but only each other.													
+Guardian of Life, Hestiovan		Grade- X	15	Earth/Deity	6000	5000	Monster	This card can use a supercharged version of Prayer of Life, adding 1000 ATK and HP to revived Monster, but it has a cooldown of 7 turns.													
+Kageki, Destructor of Realites		Grade -X	26	Dark/Deity	7000	5000	Monster	This card can on be used as long as the O.N.I Mask is on hand. Once paired with a part of the Kageki Armor, It gains a new effect depending on which part.													
+Chronomyle, King of Time		Grade- X	13	Magic/Deity	5000	4000	Monster	This card can Use the Time Stop effect, so loong as the Staff of Time is on hand, skipping your oppenent's turn of 3 turns.													
+Star-Bringer Novus Castria		Grade-X	29	Magic/Deity	6000	3000	Monster	This card has 2 modes. Mode One is Necromancer Mode, which allows the cards to revive any Magic type monster once every 3 turns. The 2nd mode is Offensive mode, where a another card (the staff of the Stars, the Mask of 													k of the World, and the Stargazer's Sword.
+Shadow Luker	Grade-C		5	Dark	1000	2050	Monster	This card can take 1 monster below Grade-A to the shadow realm. Flip a coin. If the caster loses, a monster must be sent to the graveyard. Win, and the kidnapped monster is not able to be used, moved, or sent to the graveyard for 3 turns.													
+Power Play!	Grade-B		N/A	Multi-turn	N/A	N/A	Assist	You can use any monster on your side back to back for 2 turns.													
+Necromancer	Grade-A		N/A	Instant	N/A	N/A	Assist	You can summon 5 Grade-C monsters, which will have half thier nromal DEF, but double the ATK.													
+King of Games 	Grade-S		10	Deity	3000	4000	Monster	Once this card is active, you are allowed to see the best card in your opponet's deck. 2nd Effect: Once sent to the Graveyard, all opposing monsters above Grade B will be instantly destroyed. Only usable after 7 turns with 2 monsters destroyed from either side.													
+2nd Effect: Once sent to the Graveyard, all opposing monsters above Grade B will be instantly destroyed. Only usable after 7 turns with 2 monsters destroyed from either side.											Applies to the above card as well. 										
+The BLADE 	Grade-SS		40	Deity/Dark	10,000	Infinte	Pigman	Call forth the the legendary Technoblade from the Heavens (or where ever he is) and show your opponet that Technoblade never diessssss (SUPER RARE CARD; only will have 5 copies in the world)													
+Youkuzai	Grade-C		5	Dark	2000	1000	Monster	Cannot be damaged by Tech or Dark Type Monsters. 													
