@@ -1,0 +1,206 @@
+# VANTAGE WALKERS STANDARD RULEBOOK
+
+Vantage Walkers is a card game that is played with two decks comprised of 60 VW cards. The goal of the game is to reduce your opponent's life points to zero.
+
+## Basic Rules
+
+- Each player starts with 15000 life points and 0 moons. They can gain 2 or 1d3 moons on their first turn.
+- Players draw 5 cards from their deck at the beginning of the game. The player going first does not have a Draw Phase.
+- If a player has no LP or cards in their deck when they have to draw, they lose the game.
+- Players can play cards from their hand by paying a "Moon" or mana cost.
+- Players can have up to 12 cards on the field at a time, in 12 different zones. Each zone can hold one card.
+- Each monster card has an attack and health value. When a monster attacks another monster, the attacking monster's attack value is compared to the defending monster's health value. If the attack value is greater than the health value, the defending monster is destroyed and sent to the graveyard. If the attack value is less than the health value, both monsters remain on the field.
+- If a monster's health value is reduced to zero, it is destroyed and sent to the graveyard, unless it has an effect that prevents destruction or had 0 health on summon.
+- When a monster is destroyed by battle, the player controlling that monster loses life points equal to the difference between the attacking monster's attack value and the defending monster's health value, called Overshoot damage.
+- When a card is removed from play, it can never be interacted with again for the rest of the game. Cards that are removed from play are sent to the "Removed from Play" zone. This is different from banishing, which is a temporary removal from play. Cards that are banished can be returned to play later in the game.
+- Assists and Cantrips can be played from the hand. Traps must be set for a turn before they can be activated.
+- A monster can attack any of your opponent's monsters, or if your opponent has no monsters on the field, they can attack your opponent directly. If a monster attacks your opponent directly, your opponent loses life points equal to the attacking monster's attack value.
+
+## Advanced Rules
+
+### Wire
+
+Wire is a property of cards that dictate how fast they are. It derives from the phrase "Down to the wire."
+
+Wire is split into 5 categories:
+0 - These cards are the slowest and can be interacted with by any other card.
+1 - These cards are faster than 0 Wire cards and can only be played on your turn.
+2 - These cards are faster than 1 Wire cards and can be played on your turn or in response to a 0 or 1 Wire card.
+3 - These cards are faster than 2 Wire cards and can be played on either turn or in response to a 0, 1, or 2 Wire card.
+4 - These cards can be played on either turn or in response to 0, 1, 2, or 3 Wire cards. They are the fastest cards in the game and can only be interacted with by other 4 Wire cards.
+5 - These cards cannot be responded to.
+
+A card's Wire value is either determined by type or specification.
+Monster - Wire 0
+Turn specific Assist - Wire 1
+Instant Assist - Wire 2
+Cantrip - Wire 3
+Trap - Wire 4
+Ritual Monster - Wire 5
+
+A card can legally hold a type that would increase the wire value of its summon or activation, such as a monster being a Trap type or Cantrip type, or a Cantrip being a Trap type. However, a card cannot legally have its wire decreased by a type it holds, such as a Trap being a Multi-Turn type (That trap stays on the field for multiple turns, but does not become Wire 1).
+
+### Non-monster Cards
+
+Non-monster cards are cards that are not monsters. (Obvious, I know.) They can be played from the hand, but they do not have attack or health values.
+
+They are split into 4 categories:
+- Assists - These cards are played from the hand and have a Wire value of 1 or 2 depending on their type.
+- Cantrips - These cards are played from the hand and have a Wire value of 3.
+- Traps - These cards must be set for a turn before they can be activated and have a Wire value of 4.
+- Arenas - These cards are played from the hand and have a Wire value of 1. They stay on the field until they are destroyed or removed from play. Only one arena can be on your field at a time, and if a new arena is played, the old one is sent to the graveyard.
+
+Each of these card types also have subtypes available to them:
+Assists - One-Turn, Multi-Turn, Instant
+- One turn assists stay on the field for one turn before being sent to the graveyard at the end of the turn.
+- Multi-turn assists stay on the field for multiple turns before being sent to the graveyard, depending on the effect specification, then are sent to the graveyard at the end of the turn.
+- Instant assists are played from the hand and have an immediate effect, then are sent to the graveyard.
+Cantrips - One-Turn, Multi-Turn, Cantrip, Trap
+- One turn cantrips stay on the field for one turn before being sent to the graveyard at the end of the turn.
+- Multi-turn cantrips stay on the field for multiple turns before being sent to the graveyard, depending on the effect specification, then are sent to the graveyard at the end of the turn.
+- Cantrip cantrips are played from the hand and have an immediate effect, then are sent to the graveyard.
+- Trap cantrips are played from the hand and have an immediate effect, then are sent to the graveyard. They are Wire 4.
+Traps - One-Turn, Multi-Turn, Trap
+- One turn traps stay on the field for one turn before being sent to the graveyard at the end of the turn.
+- Multi-turn traps stay on the field for multiple turns before being sent to the graveyard, depending on the effect specification, then are sent to the graveyard at the end of the turn.
+- Trap traps are played from the hand and have an immediate effect, then are sent to the graveyard. They are Wire 4.
+Arenas - Arena, Cantrip, Trap
+- Arena arenas stay on the field until they are destroyed or removed from play.
+- Cantrip arenas stay on the field until they are destroyed or removed from play. They are Wire 3.
+- Trap arenas stay on the field until they are destroyed or removed from play. They are Wire 4.
+
+### Monster Card Types
+
+Monsters are split into 4 categories:
+- Normal - These monsters are summoned via Moons.
+- Sacrifice - These monsters are summoned via sacrificing other monsters on the field, the amount of which is specified on the Moon cost of the monster. These monsters have a wire value of 3.
+- Ritual - These monsters are summoned via a ritual Assist, which is a card that is played from the hand and has an immediate effect. The ritual card specifies the monster that can be summoned via that ritual. These monsters have a Wire value of 5.
+- Fusion - These monsters are summoned via sacrificing specific cards on the field, specified on the effect of the Fusion monster. This includes Assists, Cantrips, etc. These monsters have a Wire value of 4.
+
+### Card Syntax
+
+{} - This indicates flavor text within a card's effect. It is to be ignored in play.
+() - This indicates a modifier to a card's effect. An example would be "(Wire 3) This monster can dodge 1 attack."
+"" - This indicates a card's name or part of a card's name. An example would be "Vantage Walker" or 1 "Gandora" Monster.
+X/X - This indicates a monster's statline, with the first number being the monster's attack value and the second number being the monster's health value. An example would be 1500/2000. This is commonly used in card effects to reference specific statlines or overwrite them.
+
+Card effect triggers are phrases that indicate when a card's effect can be activated. These triggers are used to specify when a card's effect can be activated, and are used in conjunction with the card's effect text. The following are the card effect triggers that are used in Vantage Walkers:
+
+When this card is summoned - when the card is summoned
+When this card leaves the field - if the card leaves the field
+When this card is destroyed - if the card is destroyed specifically
+When this card is banished - if the card is banished specifically
+When this card is removed from play - if the card is removed from play specifically
+Once per turn, you can - optional opt
+Once per turn, - mandatory opt
+Once every other turn, you can - optional oeot
+Once every other turn, - mandatory oeot
+Once every \[x\] turns, you can - optional oext
+Once every \[x\] turns, - mandatory oext
+If \[condition\] - specific condition met
+You may pay \[x\] moons - paying
+You can \[action\] - optional mpt
+\[effect\] - no condition
+
+"When" and "If" are interchangeable - for example, "When this card is destroyed" and "If this card is destroyed" are the same trigger.
+"Can" and "May" are interchangeable - for example, "You can pay 2 moons" and "You may pay 2 moons" are the same trigger.
+
+"Once every 2 turns" is treated as "Once every other turn".
+"Once every 1 turns" is treated as "Once per turn".
+
+"Once every X turns" means once you use the effect, you cannot use it for x-1 turns after the turn it was used (ex: if you use an OE5T effect, then once your turn ends, you cannot use it until the beginning of the fifth turn after it was activated, so four turns in between)
+
+"X turns" means X-1 turns after the turn of activation. In other words, X turns includes the current turn.
+
+#### Parenthetical Modifiers
+
+(Wire X) - specifies the wire of an effect. Example is "(Wire 5) Destroy 1 monster."
+(FM: X) - specifies the fusion material of a Fusion monster.
+(Linger: X) - specifies a lingering effect or object.
+(Label: "X", Y) - Labels an effect for reference inside a card effect.
+
+### Board
+
+The board is a 6x4 grid of 24 zones. Each player has 12 zones \[6x2\]. An empty zone is a vacant one. A filled zone is a zone that has a card in it. A locked zone is a zone that cannot be interacted with, and if it contains a card, that card cannot use effects or attack. A locked zone can be unlocked or created by a card effect. Each zone is numbered from 1 to 12, with the top left being 1 and the bottom right being 12. The zones are numbered as follows:
+
+\[1 \]\[2 \]\[3 \]\[4 \]\[5 \]\[6 \]
+\[7 \]\[8 \]\[9 \]\[10\]\[11\]\[12\]
+
+A corresponding zone is the zone on your opponent's side of the board that is the same number as your zone.
+
+### Phases
+
+Start of Turn - The turn begins and any effects that are to be activated at the start of the turn are activated during this phase.
+Draw Phase - The player draws a card from their deck. If the player has no cards in their deck, they lose the game.
+Standby Phase - The player can activate effects that can be activated during this phase.
+Main Phase - The player can play cards from their hand, activate effects, and attack with monsters.
+End Phase - The player ends their turn. Any effects that are to be activated at this phase are activated during this phase.
+End of Turn - The turn ends and the next player begins their turn. Any effects that are to be activated at the end of the turn are activated during this phase.
+
+### Economy
+
+Each player starts with 5 moons, and can choose to either gain 2 moons or 1d3 moons at the start of their turn. There is no limit to how many moons a player can have. Moons are used to pay for cards and card effects. Each card has a moon cost, which is the amount of moons that must be paid to play that card. Some cards have effects that can be activated by paying moons, which is specified in the effect of the card.
+
+Monster moon costs must be paid upfront.
+
+Assist, Cantrip, and Trap moon costs can be paid upfront, but can also be paid on credit, by adding the moon cost to the player's tab. While a player has a positive tab, any Moons they would gain are instead used to reduce their tab by the same amount. The player can also choose to voluntarily pay all or part of a positive tab. The limit for the tab is 20 moons. If a player would buy a card on credit but doesn't have enough vacant tab to do so, they must pay upfront for the card. If a player has a tab of 20 moons, they cannot buy cards on credit until their tab is less than 20 moons. Paying cards on credit is not available until Turn 5.
+
+If a player has a negative tab, that player's tab becomes 0 and they gain moons equal to the absolute value of their tab.
+
+### Variables
+
+Variables in Vantage Walkers are used to store values that can be used in card effects. Variables are stored in a player's variable pool, which is a collection of variables that can be used by that player. Each player has their own variable pool, and variables cannot be shared between players. Variables are created by card effects, and can be destroyed by card effects. Variables can be used in card effects by referencing them by name. Variables can be used to store values such as life points, moons, or any other value that can be represented by a number.
+
+Monsters also contain their own selfcontained variable, called a queue, which is a variable that can be used to store integers or strings for the purposes of card effects. The queue can be a stack or a single value, depending on the effect of the card. The queue can be used to store values such as attack and health values, effects, or any other value that can be represented by a number or string.
+
+If a variable reaches 0, it is removed from the pool unless stated otherwise.
+
+### Chains
+
+A chain is a series of cards that responded to each other. It is a LIFO system, meaning the last card played is the first card to resolve.
+
+When you play a card, your opponent gets the chance to respond. If they do not, or if you have a card that bypasses priority, you may respond to your own card instead.
+
+### Objects and Lifetimes
+
+In VW, a lifetime is essentially the amount of time a given object stays on the field before either disappearing or going to the graveyard. In terms of cards, cards have primitive lifetimes defined in the rules of the game:
+- Any form of Instant card's lifetime is just its effect resolve.
+- One-Turn cards have a lifetime that ends when the turn ends.
+- Multi-Turn cards have lifetimes that end when specified.
+- Monster lifetimes end when that monster is destroyed or otherwise sent to the graveyard.
+- Arena lifetimes end when the card is sent to the graveyard or destroyed.
+
+Effects can also spawn objects with lifetimes - they do so in such a way that they define the corresponding object (if there is one), effect (if there is one), and the endpoint (if there is one)
+
+This can be represented as follows, though it will not be in card text:
+Linger {
+    obj: Placeholder
+    effect: Placeholder
+    end: Placeholder
+}
+
+An example of this would be the effect "(Linger: Select 1 monster. Place a Haunted Counter on that monster. Each turn, while that monster has the Haunted Counter, it loses 300 ATK. Subtract 1 Haunted Counter from that monster in 3 turns.)", where the struct is as follows:
+
+Linger {
+    obj: Haunted Counter
+    effect: each turn, lose 300 ATK
+    end: in 3 turns
+}
+
+### Misc.
+
+- Card effects take precedence over the rules stated in this document. If a card's text contradicts a general rule, the card's text applies for that specific interaction.
+
+## Royal Format
+
+Royal Format is a format of Vantage Walkers that is played with an expanded set of cards. Royal Format is played with the same rules as Standard Format, with specific changes.
+
+Changes to the standard rules for Royal Format are as follows:
+- Each player starts with 15000 life points and 10 moons.
+
+## Nightly Format
+
+Nightly Format is an experimental format focused on changing rules and interactions and testing them for game balance.
+
+Changes to the standard rules for Nightly Format are as follows:
+- Monsters directly behind other monsters cannot be attacked.
