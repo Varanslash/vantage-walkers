@@ -1,0 +1,24 @@
+Name		Grade	Moons	Type	ATK	HP	Card Type	Skill/Effect
+Ex		X	12	Tech	0	0	Fusion	(FM: 12 moons' worth of cards) When this monster is summoned, place 1 counter on this card for each card used as fusion material. You can sacrifice this card; summon X+1 0/0 0-moon Dark-type Grade-F "Advent Token"s, with the effect "When this card is summoned, place 3 counters on it. Each time this monster is attacked, it loses 1 counter. If it has no counters, destroy it.", where X is the amount of counters on this card. When this monster is summoned, select 1 monster. This monster gains the ATK/HP of that monster.
+Ao		SS	0	Instant	N/A	N/A	Assist	Select 1 monster. Pay half that monster's cost and take control of it until the end of the turn.
+Midori		SS	5	Cantrip	N/A	N/A	Cantrip	Banish 1 monster your opponent controls.
+Murasaki		SS	4	Cantrip	N/A	N/A	Cantrip	Banish 1 monster you control.
+Aka		X	10	Cantrip	N/A	N/A	Cantrip	Destroy 3 monsters your opponent controls.
+Kiro		SS	4	Cantrip	N/A	N/A	Cantrip	{ I am inevitable. } If you have no cards in your deck, destroy 3 monsters. (Linger: Skip all of your draw phases.)
+Kuroi		SS	4	Instant	N/A	N/A	Assist	{ "azzy caught you lackin', huh" "Yea...look, I tried my best, okay? Now I messed up and I really feel like she wants to break up AND I DON'T KNOW WHAT TO DO-" "calm down girl" "...fine...." "look, i talked to her, like, yesterday, aight? she's still fairly not wanting to interact with you at the moment, but she'll come around" "I can't think of anything else but her right now, ughhhh..." "you'll be fine. go do something fun while you wait, hang out with belphi or something" "But-" "shut up and have fun odia" } Banish 1 Grade-S or below monster.
+Shiroi		SS	4	Instant	N/A	N/A	Assist	{ "I fear I may have pushed Azzy away...I love that girl and I want her to be okay, I want her to be safe...but it seems I've gone too far with that." "Odia it'll be okay, alright? You guys will be fine, I'm sure of it. She'll talk to you when it's time for you guys to work it out. For now, just be patient, check in on her if needed, and get here anything you need, alright?" "...I will. Thank you, S." "Love you Odia." "Love you too, S." } Select 1 monster. This turn, that monster cannot be destroyed.
+Sakura-Iro		A	5	Cantrip	N/A	N/A	Cantrip	Draw 2 cards.
+Reincarnated		S	2	Instant	N/A	N/A	Assist	Revive 1 Normal, Sacrifice, or Fusion monster, paying its cost or fulfilling its summoning requirement.
+Daiku-Sakura		SS	5	Cantrip	N/A	N/A	Cantrip	{ "AZZY LOOK IT'S A CARPENTER CHERRY BLOSSOM" "belphi when did you get into plants?" "Well ever since I found out about the Black Lotus of course!" "belphi that's a computer virus" } Look at your opponent's hand and select 1 card in it. They must discard that card.
+Cloning		SS	2	Trap	N/A	N/A	Cantrip	Select 1 Normal or Sacrifice monster. Summon a "Cloned Token" with that monster's stats and effect, paying its cost.
+Transmutation		SS	0	Trap	N/A	N/A	Cantrip	Sacrifice 1 monster. Select 1 Normal or Sacrifice monster. Summon a "Transmuted Token" with that monster's stats and effect, paying its cost.
+Getting Even With Life		S	4	Cantrip	N/A	N/A	Cantrip	If more cards left your hand than came into your hand this turn, draw 2 cards.
+Requiesence		S	6	Instant	N/A	N/A	Cantrip	Tutor 1 card.
+Laomu		S	2	Dark	200	2500	Monster	You must pay 4 moons for this card to declare an attack. If this card attacks, destroy the monster it attacked.
+Lenora		S	2	Dark	200	2500	Monster	You must pay 5 moons for this card to declare an attack. If this card attacks, draw 2 cards.
+Lamesa		S	2	Dark	200	2500	Monster	You must pay 1 moon for this card to declare an attack. If this card attacks, discard and draw 1 card.
+Shadow of The Blackbird Trio		A	4	Trap	N/A	N/A	Cantrip	Your opponent must discard 1 card.
+Ki-Sakura		C	3	Instant	N/A	N/A	Assist	Tutor 1 "Sakura" card.
+Resonance		S	4	Cantrip	N/A	N/A	Cantrip	{ "love ya girl" "Love you too, Azzy. Again, I'm s-" "no need to apologize girl, i know" } Negate 1 non-permanent card.
+Fafnir - Sunset		S	7	Dark/Dragon	2700	4000	Monster	{ A dragon whose wings glitter like the setting sun. }
+Astoracope - Sunrise		S	7	Light/Dragon	2700	4000	Monster	{ A dragon whose eyes radiate the glow of the rising sun. }
