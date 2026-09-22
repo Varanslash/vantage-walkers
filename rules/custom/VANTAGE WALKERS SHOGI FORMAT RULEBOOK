@@ -1,0 +1,46 @@
+# VANTAGE WALKERS SHOGI FORMAT RULEBOOK
+
+Vantage Walkers Shogi Format is a variant of VW played on a 9x9 grid. The goal is to get your opponent's life points to 0.
+
+## Basic Rules
+
+- Each player starts with 15000 life points and 0 moons. They can gain 2 or 1d3 moons on their first turn.
+- Players draw 5 cards from their deck at the beginning of the game. The player going first does not have a Draw Phase.
+- If a player has no LP or cards in their deck when they have to draw, they lose the game.
+- Players can play cards from their hand by paying a "Moon" or mana cost.
+- When a monster is destroyed by battle, the player controlling that monster loses life points equal to the difference between the attacking monster's attack value and the defending monster's health value, called Overshoot damage.
+- When a card is removed from play, it can never be interacted with again for the rest of the game. Cards that are removed from play are sent to the "Removed from Play" zone. This is different from banishing, which is a temporary removal from play. Cards that are banished can be returned to play later in the game.
+- Assists and Cantrips can be played from the hand. Traps must be set for a turn before they can be activated.
+- A monster can attack any of your opponent's monsters if the defending monster is in the attacking monster's movement range, unless stated otherwise on either card. Monsters cannot attack directly unless the opponent has no monsters. Life point rules from Standard apply.
+- Wire, Phases, Tab, Variables, Queues, and chain rules are assumed in this rulebook.
+
+## Advanced Rules
+
+### Board
+
+The board is a 9x9 arena. Each player has the first rank relative to their perspective as uncontested space; they can summon monsters and play cards freely in those 9 zones. The other 63 zones are contested space; cards cannot be played there, but they can be moved there by movement rules or card effects.
+
+The board is as shown:
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 9
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 8
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 7
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 6
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 5
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 4
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 3
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 2
+\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\]\[\] 1
+a   b   c   d   e   f   g   h   i
+
+A corresponding zone is the zone that is mirrored to any one zone, with the exception of the center zone (as an example, the bottom left corner's corresponding zone is the top right corner, and a2's corresponding zone is i8.) The center zone has no corresponding zone.
+
+There are no zone numbers.
+
+### Damage Calculation
+
+Every monster in Shogi Format sets contains a movement trait (Movement: Piece or Movement definitions). When a monster is attacked, that monster is "captured", in that it is taken off the board and destroyed, ignoring "cannot be destroyed by battle" effects the card had in its own effect. For this, the formula for damage calculation is:
+
+Ans = defending hp mod attacking atk, where if Ans = 0 then damage = 0, else damage = attacking atk - Ans
+If attacking atk is 0, Ans is 0
+
+"damage" here is applied as Overshoot damage.
