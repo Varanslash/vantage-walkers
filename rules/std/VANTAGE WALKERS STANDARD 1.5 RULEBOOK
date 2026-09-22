@@ -10,7 +10,7 @@ Vantage Walkers is a card game that is played with two decks comprised of 60 VW 
 - Players can play cards from their hand by paying a "Moon" or mana cost.
 - Players can have up to 12 cards on the field at a time, in 12 different zones. Each zone can hold one card.
 - Each monster card has an attack and health value. When a monster attacks another monster, the attacking monster's attack value is compared to the defending monster's health value. If the attack value is greater than the health value, the defending monster is destroyed and sent to the graveyard. If the attack value is less than the health value, both monsters remain on the field.
-- If a monster's health value is reduced to zero, it is destroyed and sent to the graveyard, unless it has an effect that prevents destruction or had 0 health on summon.
+- If a monster's health value is reduced to zero, it is destroyed and sent to the graveyard, unless it has an effect that prevents destruction or had 0 health on summon. (If a monster with 0 HP on summon has its HP raised and then depleted to 0, that monster is destroyed.)
 - When a monster is destroyed by battle, the player controlling that monster loses life points equal to the difference between the attacking monster's attack value and the defending monster's health value, called Overshoot damage.
 - When a card is removed from play, it can never be interacted with again for the rest of the game. Cards that are removed from play are sent to the "Removed from Play" zone. This is different from banishing, which is a temporary removal from play. Cards that are banished can be returned to play later in the game.
 - Assists and Cantrips can be played from the hand. Traps must be set for a turn before they can be activated.
